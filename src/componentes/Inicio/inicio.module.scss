@@ -1,0 +1,50 @@
+.inicio{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2rem;
+}
+
+.textos{
+    
+
+    h1{
+    
+    width:100%;
+    font-family: "Source Sans 3", sans-serif;
+    color: #205691;
+    font-size: 135px;
+    font-style: normal;
+    font-weight: 900;
+    font-weight: bold;
+    
+    line-height: 100%;
+
+    }
+    p{
+    
+        width: 70%;
+        color: #205691;
+        margin-top: 1rem;
+        font-size: 30px;
+        font-weight: 200;
+        font-family: "Alatsi", sans-serif;
+        font-style: normal;
+        line-height: 100%;
+        
+    }
+}
+
+.imagemContainer{
+    margin-right:5rem;
+    .imagem{
+        width: 697px;
+        height: 859px;
+        img{
+            width: 110%;
+            height: 110%;
+            object-fit: cover;
+        }
+    }
+}
