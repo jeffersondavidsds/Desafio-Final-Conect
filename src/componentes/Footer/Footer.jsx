@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes, Link } from 'react-router-dom';
-import Logo from '../../assets/Logo.png';
+import logo from '../../assets/Logo.png';
 import instagram from '../../assets/instagram.png';
 import linkedin from '../../assets/linkedin.png';
 import whatsapp from '../../assets/whatsapp.png';
@@ -15,7 +15,7 @@ function Footer() {
             <style>
             @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
             </style>
-            <img src={Logo} alt="Logo da Connect" className={styles.logo} />
+            <img src={logo} alt="Logo da Connecta" className={styles.logo} />
             <p className={styles.nomeLogo}>Connect</p>
             </div>
             <div className={styles.direitos}>
@@ -42,8 +42,6 @@ function Footer() {
 
 
 }
-
-
 
 export default Footer;
 
