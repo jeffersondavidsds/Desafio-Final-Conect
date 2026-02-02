@@ -1,5 +1,4 @@
 import { BrowserRouter, Route, Routes, Link } from 'react-router-dom';
-import Inicio from '../Inicio/Inicio';
 import Logo from '../../assets/Logo.png';
 import instagram from '../../assets/instagram.png';
 import linkedin from '../../assets/linkedin.png';
@@ -13,6 +12,9 @@ function Footer() {
     <BrowserRouter>
         <section className={styles.navBarFooter}>
             <div className={styles.logoContainer}>
+            <style>
+            @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+            </style>
             <img src={Logo} alt="Logo da Connect" className={styles.logo} />
             <p className={styles.nomeLogo}>Connect</p>
             </div>

@@ -15,7 +15,7 @@ function Inicio() {
       @import url('https://fonts.googleapis.com/css2?family=Alatsi&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
       </style>
     <div className={styles.textos}>
-      <h1>Projetos Sociais que transformam!</h1>
+      <h1>Projetos Sociais que transformam</h1>
       <p>Conectamos sua empresa com projetos sociais impactantes. Juntos, criamos mudanças reais na comunidade.</p>
     </div>
     <div className={styles.imagemContainer}>
