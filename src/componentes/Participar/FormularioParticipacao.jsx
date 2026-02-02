@@ -5,3 +5,4 @@ function FormularioParticipacao() {
         </div>
     );
 }
+export default FormularioParticipacao;

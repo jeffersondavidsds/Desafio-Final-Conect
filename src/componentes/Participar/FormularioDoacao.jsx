@@ -5,3 +5,4 @@ function FormularioDoacao() {
         </div>
     );
 }
+export default FormularioDoacao;

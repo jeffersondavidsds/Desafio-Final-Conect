@@ -1,4 +1,3 @@
-
 import NavBar from "./componentes/NavBar/NavBar.jsx";
 import Footer from "./componentes/Footer/Footer.jsx";
 import './global.module.scss';
