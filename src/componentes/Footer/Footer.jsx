@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes, Link } from 'react-router-dom';
-import logo from '../../assets/Logo.png';
+import logo from '../../assets/logo.png';
 import instagram from '../../assets/instagram.png';
 import linkedin from '../../assets/linkedin.png';
 import whatsapp from '../../assets/whatsapp.png';
