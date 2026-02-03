@@ -21,7 +21,7 @@
     width: 35%;
     height: 80vh;
     position: absolute;
-    top:10rem;
+    top:5rem;
     right: 10rem;
     font-family: "Inter", sans-serif;
 
@@ -31,21 +31,21 @@
     h1 {
         font-size: 2rem;
         color: #205691;
-        font-size: 60px;
+        font-size: 55px;
         width: 85%;
         
     }
 }
 
 .conteudo {
-    
-    margin-top: 20px;
-    gap: 10rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
     width: 90%;
 
 
     p {
-        font-size: 30px;
+        font-size: 25px;
         color: #000000;
         margin-top: 30px;
         

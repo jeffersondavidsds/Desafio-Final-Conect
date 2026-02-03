@@ -9,13 +9,13 @@
 }
 
 .textos{
-    width: 62%;
+    width: 76%;
 
     h1{
     width:75%;
     font-family: "Source Sans 3", sans-serif;
     color: #205691;
-    font-size: 140px;
+    font-size: 125px;
     font-style: normal;
     font-weight: 900;
     font-weight: bold;
@@ -39,15 +39,15 @@
 .imagemContainer{
     margin-right:1rem;
     width: 30%;
-    right: 15%;
-    position: relative;
+    right:15%;
+    position: absolute;
     .imagem{
         
         width: 450px;
         height: 90vh;
         position: relative;
         img{
-            width: 1000px;
+            width: 860px;
             height: 100vh;
             
 
