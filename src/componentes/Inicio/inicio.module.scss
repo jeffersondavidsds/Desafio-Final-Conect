@@ -4,27 +4,27 @@
     justify-content: space-between;
     align-items: center;
     padding-left: 2rem;
+    height: 90vh;
+    
 }
 
 .textos{
-    
+    width: 62%;
 
     h1{
-    
-    width:100%;
+    width:75%;
     font-family: "Source Sans 3", sans-serif;
     color: #205691;
-    font-size: 135px;
+    font-size: 140px;
     font-style: normal;
     font-weight: 900;
     font-weight: bold;
-    
     line-height: 100%;
 
     }
     p{
     
-        width: 70%;
+        width: 55%;
         color: #205691;
         margin-top: 1rem;
         font-size: 30px;
@@ -37,14 +37,20 @@
 }
 
 .imagemContainer{
-    margin-right:5rem;
+    margin-right:1rem;
+    width: 30%;
+    right: 15%;
+    position: relative;
     .imagem{
-        width: 697px;
-        height: 859px;
+        
+        width: 450px;
+        height: 90vh;
+        position: relative;
         img{
-            width: 110%;
-            height: 110%;
-            object-fit: cover;
+            width: 1000px;
+            height: 100vh;
+            
+
         }
     }
 }

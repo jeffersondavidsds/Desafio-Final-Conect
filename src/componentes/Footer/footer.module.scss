@@ -1,9 +1,17 @@
 .footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     background-color: #205691;
     margin: 0;
+    padding: 10px;
+    width: 100%;
+    position: relative;
 }
 
     .navBarFooter{
+        
+        width: 95%;
         display: flex;
         justify-content: space-between;
         align-items: center;
