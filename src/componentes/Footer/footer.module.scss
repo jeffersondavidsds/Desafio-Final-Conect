@@ -6,7 +6,7 @@
     margin: 0;
     padding: 10px;
     width: 100%;
-    position: relative;
+    
 }
 
     .navBarFooter{
@@ -73,4 +73,47 @@
     color: white;
 }
 
+
+@media (min-width: 201px) and (max-width: 768px) {
+
+    .footer{
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 10px 0;
+        gap: 15px;
+    }
+
+    .navBarFooter{
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .logoContainer{
+        width: 50%;
+        justify-content: center;
+        gap: 2rem;
+
+        .logo{
+            width: 90px;
+            height: 70px;
+        }
+
+        .nomeLogo{
+            font-size: 30px;
+            font-style: normal;
+        }
+    }
+
+    .direitos{
+        width: 100%;
+        margin-right: 0;
+        font-size: 12px;
+        font-style: normal;
+    }
+
+    .redesSociais{
+        gap: 4rem;
+    }
+}
     

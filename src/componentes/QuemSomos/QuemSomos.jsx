@@ -5,7 +5,8 @@ import styles from "../../componentes/QuemSomos/quemsomos.module.scss";
 function QueSomos() {
   return (
     <section className={styles.quemSomos}>
-      <img src={image} alt="Imagem Quem Somos" />
+      <div className={styles.imagem}>
+      </div>
       <section className={styles.textos}>
         <div className={styles.titulo}>
         <h1>Como a Connect atua em projetos sociais</h1>

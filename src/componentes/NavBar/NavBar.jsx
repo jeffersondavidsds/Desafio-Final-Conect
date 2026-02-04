@@ -22,7 +22,7 @@ function NavBar() {
                 <p><Link to="/">Início</Link></p>
                 <p><Link to="/acoes">Ações da Connect</Link></p>
                 <p><Link to="/quemsomos">Quem Somos</Link></p>
-                <p><Link to="/perfil">Perfil</Link></p>
+                
             </div>
             <Link to="/perfil">
             <img src={fotoperfil} alt="Foto de Perfil" className={styles.fotoperfil} />
