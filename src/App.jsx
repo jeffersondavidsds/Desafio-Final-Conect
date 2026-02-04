@@ -1,6 +1,6 @@
 import NavBar from "./componentes/NavBar/NavBar.jsx";
 import Footer from "./componentes/Footer/Footer.jsx";
-import styles from  "./global.module.scss";
+import  "./global.scss";
 
 
 function App() {
