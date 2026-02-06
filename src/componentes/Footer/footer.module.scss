@@ -95,12 +95,12 @@
         gap: 2rem;
 
         .logo{
-            width: 90px;
-            height: 70px;
+            width: 50px;
+            height: 40px;
         }
 
         .nomeLogo{
-            font-size: 30px;
+            font-size: 25px;
             font-style: normal;
         }
     }
@@ -114,6 +114,11 @@
 
     .redesSociais{
         gap: 4rem;
+
+        .iconeRedeSocial{
+            width: 35px;
+            height: 35px;
+        }
     }
 }
     
