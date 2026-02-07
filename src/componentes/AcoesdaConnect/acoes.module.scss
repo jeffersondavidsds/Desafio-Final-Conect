@@ -86,7 +86,10 @@
 
             }
 
+            
+
         .button{
+            
         margin-top: 2rem;
         padding: 1rem 2rem;
         background-color: #205691;
@@ -98,9 +101,14 @@
         font-style: SemiBold;
         font-size: 18px;
         line-height: 120%;
+        a{
+            text-decoration: none;
+            color: #FFFFFF;
+        }
         cursor: pointer;
         &:hover{
             background-color: #104070;
+         
     }
 }
         }
