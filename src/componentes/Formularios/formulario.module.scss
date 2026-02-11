@@ -1,3 +1,181 @@
-.completo{
+.formWrap {
+  padding: 18px 18px 16px 18px;
+  font-family: "Inter", "Source Sans 3", system-ui, sans-serif;
+}
+
+.headerForm {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 14px 14px 12px 14px;
+  border-radius: 14px;
+  background: linear-gradient(90deg, #1f5d96, #2a77bf);
+  color: #fff;
+  margin-bottom: 14px;
+}
+
+.headerImages {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid rgba(255, 255, 255, 0.85);
+  flex-shrink: 0;
+}
+
+.acaoThumb {
+  width: 88px;
+  height: 64px;
+  border-radius: 12px;
+  object-fit: cover;
+  border: 3px solid rgba(255, 255, 255, 0.65);
+  flex-shrink: 0;
+}
+
+.headerText {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.titulo {
+  margin: 0;
+  font-size: 22px;
+  line-height: 1.2;
+}
+
+.subtitulo {
+  margin: 0;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.14);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.badgeParticipar {
+  background: rgb(46, 204, 112); // verde
+  border: 1px solid rgb(5, 82, 37);
+  color: #0d552b;
+}
+
+.badgeDoar {
+  background: rgb(109, 182, 255); // azul
+  border: 1px solid rgb(3, 51, 99);
+  color: #2f3e47;
+}
+
+
+.forms {
+  border: 1px solid rgba(31, 93, 150, 0.18);
+  border-radius: 14px;
+  padding: 14px;
+  background: #f7fbff;
+}
+
+.forms legend {
+  padding: 0 8px;
+  font-weight: 700;
+  color: #1f5d96;
+}
+
+.forms label {
+  display: block;
+  margin: 10px 0 6px;
+  font-weight: 600;
+  color: #163a5a;
+}
+
+.forms input {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 1px solid rgba(31, 93, 150, 0.2);
+  background: #fff;
+  outline: none;
+
+  &:focus {
+    border-color: rgba(255, 77, 64, 0.55); // detalhe coral
+    box-shadow: 0 0 0 4px rgba(255, 77, 64, 0.12);
+  }
+}
+
+.rowReadOnly {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+
+  input {
+    background: #eef6ff;
+  }
+}
+
+.erro {
+  margin: 10px 2px 0;
+  color: #b00020;
+}
+
+.footerButtons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.btnGhost {
+  padding: 10px 14px;
+  border-radius: 12px;
+  background: #ffffff;
+  border: 1px solid rgba(31, 93, 150, 0.22);
+  color: #1f5d96;
+  cursor: pointer;
+
+  &:hover {
+    background: #f3f7ff;
+  }
+}
+
+.btnPrimary {
+  padding: 10px 14px;
+  border-radius: 12px;
+  background: #ff4d40; // coral destaque (combina com seu tema/foto)
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+
+  &:hover {
+    filter: brightness(0.95);
+  }
+}
+
+/* Responsivo */
+@media (max-width: 560px) {
+  .headerForm {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .rowReadOnly {
+    grid-template-columns: 1fr;
+  }
+
+  .acaoThumb {
     width: 100%;
+    max-width: 240px;
+    height: 90px;
+  }
 }

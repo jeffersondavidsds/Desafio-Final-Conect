@@ -7,6 +7,7 @@ import  "./global.scss";
 function App() {
   return(
     <>
+    
     <NavBar />
     
     <Footer />
